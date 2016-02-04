@@ -1,4 +1,8 @@
-/* Inserta tu codigo aqui */
+
+*{
+    font-family: OpenSans-Light;
+}
+/*HEADER*/
 
 .img-header{
     width: 90px;
@@ -9,17 +13,20 @@
 nav{
     margin-top: 20px;
     display: block;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
+    color:silver;
 }
+
 a{
-    color:black;
+    color:silver;
     padding: 20px;
 }
+/*PORTADA*/
 .portada{
     background-image: url(../img/semilla.jpg);
     height: 325px;
@@ -45,12 +52,11 @@ a{
 }
 h4{
     margin-top: 25px;
-    font-family: OpenSans-Light;
 }
 .paragraph{
-    font-family: OpenSans-Light;
     font-size: 15px;
 }
+/*SECT PROYECT*/
 h3{
     font-family: OpenSans-Bold;
 }
@@ -64,6 +70,7 @@ h3{
 .sec-proyec{
     background-color:#5E8039;
 }
+/*EQUIPO*/
 .img-equipo{
     width: 200px;
     border-radius: 50%;
@@ -76,6 +83,7 @@ h3{
     height: 40px;
     margin: 0px;
 }
+/*SLIDER*/
 .slider{
     background-image: url(../img/fondo2.jpg);
 }
@@ -88,13 +96,10 @@ h3{
 }
 .txt{
     width: 90%;
-    font-family: OpenSans-Light;
     font-size: 70%;
     padding-bottom: 17%;
 }
-h5{
-    font-family: OpenSans-Light;
-}
+
 /*Social*/
 .social-box{
     width: 25%;
@@ -109,7 +114,6 @@ h5{
 .social-box a{
     text-decoration: none;
     color: white;
-    font-family: OpenSans-Light;
 }
 .social-box img{
     width: 15%;
@@ -119,9 +123,8 @@ h5{
 .social{
     margin-top: 5%;
 }
-footer p{
-    font-family: OpenSans-Light;
-}
+/*FOOTER*/
+
 footer{
     background-color: #F2F2F2;
 }
